@@ -36,4 +36,4 @@ namespace Tyuiu.NosovaVD.Sprint1.Task0.V15
             Console.ReadKey();
         }
     }
-}
+} 
