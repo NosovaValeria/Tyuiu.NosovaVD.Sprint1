@@ -12,7 +12,7 @@ namespace Tyuiu.NosovaVD.Sprint1.Task3.V13.Test
             DataService ds = new DataService();
             double x = 324;
             double res = ds.MultiplyOfDigits(x);
-            Assert.AreEqual(31.104, res);
+            Assert.AreEqual(24, res);
         }
     }
 }

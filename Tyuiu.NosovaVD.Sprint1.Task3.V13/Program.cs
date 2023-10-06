@@ -40,4 +40,4 @@ namespace Tyuiu.NosovaVD.Sprint1.Task3.V13
             Console.ReadKey();
         }
     }
-}
+} 

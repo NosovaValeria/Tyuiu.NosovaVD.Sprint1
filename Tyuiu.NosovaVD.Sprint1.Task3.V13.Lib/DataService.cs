@@ -10,7 +10,10 @@ namespace Tyuiu.NosovaVD.Sprint1.Task3.V13.Lib
     {
         public double MultiplyOfDigits(double number)
         {
-            return Math.Round(((number / 100) * (number % 100 / 10) * (number % 10)), 3);
+            int a = (int)number / 100; 
+            int b = (int)number % 100 / 10;
+            int c = (int)number % 10; 
+            return a*b*c;
         }
     }
 }
